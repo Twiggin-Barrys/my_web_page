@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Not Cow Milk</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://i.ibb.co/cKFWDH0k/logo.png"
+    />
+    <link rel="stylesheet" href="css/styles1.css" />
+  </head>
+  <!--<img
+    id="potato-face"
+    src="https://i.ibb.co/SXMnvDm4/potato-face.png"
+    alt="potato face"
+    width="50px"
+  />-->
+  <body>
+    <section id="header-grid">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://i.ibb.co/Y7m4dfrC/561927bb-1ac4-4e4e-bdda-f25e586ad0d9.png"
+          alt="a cow potato"
+        />
+        <nav id="nav-bar">
+          <a class="nav-link" href="#page-title">Back to top</a>
+          <a class="nav-link" href="#video">Video</a>
+          <a class="nav-link" href="#sale-items">Buy My Stuff</a>
+        </nav>
+      </header>
+    </section>
+    <main>
+      <hr id="page-title" />
+      <hr />
+      <h1>TwigginBarrys Potato Milk</h1>
+      <hr />
+      <hr />
+      <section class="main-content">
+        <section id="about-us">
+          <ul>
+            <li id="happy">
+              <h2>Verified Humane</h2>
+              <p>
+                Our potatos are free range certified organic and given the best
+                care we can provide.
+              </p>
+            </li>
+            <li id="strong">
+              <h2>Best milk alternitave</h2>
+              <p>
+                Potato milk is filled with natural minerals and vitamins with no
+                antibiotics.
+              </p>
+            </li>
+            <li id="tasty">
+              <h2>Guaranteed Fresh</h2>
+              <p>
+                We milk our potatos every day and only use the freshest milk to
+                send to our custumers so they can experience the great taste of
+                farm fresh potato milk at home.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="video-section">
+          <h3>Real milk that comes from real farmers!</h3>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/rjP1NsHjEco?si=fvhgJKKofD8WNoyw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <form
+            id="form"
+            method="post"
+            action="https://www.freecodecamp.org/email-submit"
+          >
+            <label for="email"
+              >To sign up for our newsletter give us you email.</label
+            ><br />
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="enter email here"
+              required
+            />
+
+            <input id="submit" type="submit" value="Submit" />
+          </form>
+        </section>
+      </section>
+      <hr />
+      <hr />
+      <section id="sale-items">
+        <div id="item-cards">
+          <div class="card card1">
+            <h3>Not Cow Milk</h3>
+            <br />
+            <p>$2/ litre</p>
+            <p>comes in 1, 2, or 4 litres</p>
+            <label for="milk1l"
+              ><input type="radio" id="milk1l" name="milk" value="1l" /> 1
+              Litre</label
+            ><br />
+            <label for="milk2l"
+              ><input type="radio" id="milk2l" name="milk" value="2l" /> 2
+              Litres</label
+            ><br />
+            <label for="milk4l"
+              ><input type="radio" id="milk4l" name="milk" value="4l" /> 4
+              Litres</label
+            ><br />
+
+            <button type="submit" class="button">Order</button>
+          </div>
+          <div class="card card2">
+            <h3>Not Cow Creme</h3>
+            <br />
+            <p>$2 for 250ml or</p>
+            <p>$3 for 500ml containers</p>
+            <label for="cream250"
+              ><input type="radio" id="cream250" name="cream" value="250ml" />
+              250ml</label
+            ><br />
+            <label for="cream500"
+              ><input type="radio" id="cream500" name="cream" value="500ml" />
+              500ml</label
+            ><br />
+            <button type="submit" class="button">Order</button>
+          </div>
+          <div class="card card3">
+            <h3>Not Cow Cheese</h3>
+            <br />
+            <p>comes shredded $7/600g</p>
+            <p>or in a brick $6/600g</p>
+            <label for="shredded"
+              ><input
+                type="radio"
+                id="shredded"
+                name="cheese"
+                value="shredded"
+              />
+              600g Shredded</label
+            ><br />
+            <label for="block"
+              ><input type="radio" id="block" name="cheese" value="block" />
+              600g Block</label
+            ><br />
+            <button type="submit" class="button">Order</button>
+          </div>
+          <div class="card card4">
+            <h3>Not Cow Butter</h3>
+            <br />
+            <p>$3/454g</p>
+            <p>temperarly out of stock</p>
+            <button type="submit" class="button" disabled>Order</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

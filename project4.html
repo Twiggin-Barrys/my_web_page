@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Test Form</h1>
+    <p id="description">Building a test for for freecodecamp</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="your name" required />
+      <br />
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" required placeholder="email@email.com" />
+      <br />
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" min="16" max="104" placeholder="age" />
+      <br />
+      <p>This is a dropdown menu.</p>
+      <label for="dropdown">True or False</label>
+      <select name="dropdown" id="dropdown">
+        <option value="select-an-opton" disabled selected>
+          Select an Option
+        </option>
+        <option value="false">False</option>
+        <option value="true">True</option>
+      </select>
+      <br />
+      <p>These are radio buttons.</p>
+      <input
+        id="yes-option"
+        type="radio"
+        name="radio-button"
+        value="yes-option"
+      />
+      <label for="yes-option">Yes</label>
+      <input
+        id="no-option"
+        type="radio"
+        name="radio-button"
+        value="no-option"
+      />
+      <label for="no-option">No</label>
+      <br />
+      <p>These are checkboxes. You can select as many or as few as you like.</p>
+      <input type="checkbox" id="no" name="choice" value="no" />
+      <label for="" no>No</label>
+      <input type="checkbox" id="yes" name="choice" value="yes" />
+      <label for="yes">Yes</label>
+      <input type="checkbox" id="maybe" name="choice" value="maybe" />
+      <label for="maybe">Maybe</label>
+      <input
+        type="checkbox"
+        id="i-dont-know"
+        name="choice"
+        value="i-dont-know"
+      />
+      <label for="i-dont-know">I don't know</label>
+      <input type="checkbox" id="other" name="choice" value="other" />
+      <label for="other">Other</label>
+      <p></p>
+      <label for="comments">Other Comments?</label>
+      <br />
+      <textarea
+        cols="30"
+        rows="10"
+        name="comments"
+        id="comments"
+        placeholder="leave a comment"
+      ></textarea>
+      <br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
